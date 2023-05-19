@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Mono:ital,wght@1,100&family=Roboto:ital,wght@0,400;0,500;0,900;1,300;1,400;1,500&display=swap");
+/* font-family: 'Merienda', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.border-right {
+  border-right: 1px solid #ddd;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.bg-secondery {
+  background: #e0f4ea;
+}
+
+.bg-primary {
+  background: #ffede5;
+}
+
+.bg-blue {
+  background: #d2e0f4;
+}
+
+.bg-light {
+  background: #e5dcf0;
+}
+
+.pd-1 {
+  padding: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.py-r-1 {
+  padding-right: 1rem;
+}
+
+.pd-l-1 {
+  padding-left: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-content {
+  justify-content: space-between;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  color: white;
+}
+
+#container {
+  height: 400px;
+  width: 800px;
+}
+
+.leftsidebar {
+  text-align: center;
+  background: #000;
+  height: 100vh;
+  overflow: auto;
+}
+.leftsidebar ul li {
+  padding-top: 1.5rem;
+}
+.leftsidebar .profile {
+  padding-bottom: 1rem;
+}
+.leftsidebar .profile img {
+  margin-top: 1.5rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-page {
+  padding: 1rem;
+}
+.main-page .today {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+.main-page .header-top h1 {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.main-page .header-top p {
+  color: black;
+  font-family: "Merienda", cursive;
+  margin-bottom: 1rem;
+}
+.main-page .header-top .arrow {
+  width: 15px;
+  height: 15px;
+  padding: 2rem;
+  background: #000;
+}
+.main-page .header-top .btn-container {
+  background: #000;
+  color: white;
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+.main-page .header-top .btn-container button {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 400;
+}
+.main-page .flex-container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 1rem;
+  color: black;
+}
+.main-page .flex-container .financial {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.main-page .flex-container .financial .finalcial-container {
+  padding: 1rem !important;
+  display: flex;
+  justify-content: space-between;
+}
+.main-page .flex-container .financial .finalcial-container .box {
+  width: 600px;
+}
+.main-page .flex-container .financial .finalcial-container .box .finace h2 {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: 600;
+}
+.main-page .flex-container .financial .finalcial-container .box .finace p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  color: black;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.main-page .flex-container .financial .finalcial-container .box .avenue {
+  padding-top: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+.main-page .flex-container .financial .customers-box {
+  border-top: #ccc 1px solid;
+  margin: 0 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 1rem;
+}
+.main-page .flex-container .financial .customers-box .right-box p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 0.6rem;
+  opacity: 0.6;
+}
+.main-page .flex-container .financial .customers-box .right-box span {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7rem;
+}
+.main-page .flex-container .financial .customers-box .left-side .box {
+  padding-top: 2rem;
+}
+.main-page .flex-container .financial .customers-box .left-side .box h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+.main-page .flex-container .financial .customers-box .left-side .box p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+.main-page .flex-container .financial .customers-box .icon-box {
+  display: inline-block;
+  padding: 0.5rem;
+}
+.main-page .flex-container .financial .customers-box .customer {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.main-page .flex-container .upcoming h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+.main-page .flex-container .upcoming .time {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding-right: 0.5rem;
+}
+.main-page .flex-container .upcoming .content-box {
+  border-left: 3px solid rgba(102, 99, 99, 0.3);
+  padding-left: 0.5rem;
+}
+.main-page .flex-container .upcoming .content-box p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding-right: 0.5rem;
+  opacity: 0.5;
+}
+.main-page .flex-container .upcoming .content-box h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding-right: 0.5rem;
+}
+.main-page .invoices {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.main-page .invoices .title {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.8;
+}
+.main-page .invoices .invoices-container {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+}
+.main-page .invoices .invoices-container .dot1 {
+  width: 15px;
+  height: 15px;
+  background: red;
+  border-radius: 50%;
+}
+.main-page .invoices .invoices-container .dot2 {
+  width: 15px;
+  height: 15px;
+  background: rgb(255, 234, 3);
+  border-radius: 50%;
+}
+.main-page .invoices .invoices-container p {
+  color: black;
+  padding-left: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.main-page .invoices .invoices-container .paid-container {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  gap: 1rem;
+}
+.main-page .invoices .invoices-container .paid-container .invoice-flex {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+}
+.main-page .invoices .invoices-container .paid-container .invoice-flex span {
+  font-family: "Poppins", sans-serif;
+}
+.main-page .invoices .invoices-container .paid-container .total {
+  font-family: "Poppins", sans-serif;
+  text-align: right;
+  color: black;
+}
+.main-page .invoices .invoices-container .paid-container .total h3 {
+  font-size: 1.2rem;
+}
+.main-page .invoices .invoices-container .paid-container .total p {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+.main-page .invoices .invoices-container .paid-box {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #ededed;
+  text-align: center;
+}
+.main-page .invoices .invoices-container .paid-box h3 {
+  font-family: "Merienda", cursive;
+  color: black;
+  opacity: 0.8;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.main-page .invoices .invoices-container .flex-items {
+  display: flex;
+  justify-content: space-between;
+  border-left: 1px solid #ccc;
+}/*# sourceMappingURL=styles.css.map */
